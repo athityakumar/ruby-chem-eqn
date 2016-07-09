@@ -25,7 +25,7 @@ USING CHEM-EQN
 Type these commands on a terminal - 
 <br> (1)  `git clone git@github.com:athityakumar/ruby-chem-eqn.git`
 <br> (2)  `cd ruby-chem-eqn`
-<br> (3)  `ruby chem-eqn-balancer.rb`
+<br> (3)  `ruby main.rb`
 
 CONTRIBUTION
 ------------
