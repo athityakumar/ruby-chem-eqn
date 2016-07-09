@@ -35,3 +35,7 @@ The work flow is the same as that of any other repository.
 <br> (3) Commit your changes and send a Pull request (PR) to this repository.
 <br> Active contributors would be rewarded with the tag of "Collabrators"
 <br> Bug fixes , Issues , Issue solutions , Optimizations & Enhancements are always welcome.
+
+LICENSE
+-------
+The MIT License - [Athitya Kumar](http://github.com/athityakumar) - All Rights Reserved.
