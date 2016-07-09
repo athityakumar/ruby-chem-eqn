@@ -1,16 +1,19 @@
 require_relative 'helper/get_elements'
+require_relative 'helper/get_reactants_products'
 
-if ARGV[0] == "test"
+if ARGV[0] == "testing"
   input = "Fe3O4 + H2O = FeOH + H2"
   ARGV.clear
-else
+else 
+  if ARGV.count != 0 
+    ARGV.clear
+  end
   puts "Enter an equation  to be balanced : "
   input = gets.chomp
 end
 
 begin 
-    reactants , products = input.split(" = ")
-    reactants , products = reactants.gsub(" ","").split("+") , products.gsub(" ","").split("+")
+    reactants , products = get_reactants_products(input)
     puts "Reactants : #{reactants}"
     puts "Products : #{products}"
     elements_reactants , elements_products = get_elements(reactants) , get_elements(products)
