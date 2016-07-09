@@ -1,7 +1,6 @@
-CHEM-EQN
+CHEM-EQN [![forthebadge](http://forthebadge.com/images/badges/built-with-ruby.svg)](http://forthebadge.com)
 --------
 Chem-Eqn is a tool that will be able to read through & balance chemical equations.
-<br> [![forthebadge](http://forthebadge.com/images/badges/built-with-ruby.svg)](http://forthebadge.com)
 
 
 TO-DO LIST
