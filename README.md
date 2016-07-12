@@ -11,7 +11,7 @@ TO-DO LIST
 - [x] Extract stotchiometric coefficient of each element from each reactant & product
 - [x] Segregate same element in multiple products
 - [x] Support for () , such as radicals like (OH)- as in Fe(OH)3.
-  - [ ] Support for multiple () within a compound such as a hypothetical compound like Al(SO4(OH)2)3
+  - [x] Support for multiple () within a compound such as a hypothetical compound like Al(SO4(OH)2)3
 - [ ] Support for [] , such as complexes like K4[Fe(CN)6]
 - [ ] Support for + and - , such as H+ / OH-
 - [ ] Support database of common names , such as Benzene => C6H6

@@ -1,5 +1,5 @@
-require_relative 'helper/get_elements'
-require_relative 'helper/get_reactants_products'
+require_relative 'helpers/get_elements/get_elements'
+require_relative 'helpers/get_reactants_products/get_reactants_products'
 
 if ARGV[0] == "testing"
   input = "Fe3O4 + H2O = FeOH + H2"
@@ -8,7 +8,7 @@ else
   if ARGV.count != 0 
     ARGV.clear
   end
-  puts "Enter an equation  to be balanced : "
+  puts "Enter an equation : "
   input = gets.chomp
 end
 
